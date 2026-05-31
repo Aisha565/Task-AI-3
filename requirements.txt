@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+rank-bm25
+pypdf
+python-dotenv
+google-generativeai
+llama-index
+numpy
+pandas

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "What is leave policy?",
+        "answer": "Emergency Leave: Maximum 5 emergency leaves are permitted.\nLeave Approval: All leave requests must be approved through HRMS.\nUnused Leave: Unused annual leave may be carried forward for one year.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.25,
+        "context_recall": 0.5
+    },
+    {
+        "question": "What is onboarding process?",
+        "answer": "There is no information in the provided context about improving query options or explanations for why certain queries are better for document retrieval. The context only outlines specific aspects of the TEYZIX CORE Onboarding Guide, Remote Work Policy, and Performance Review Policy.",
+        "faithfulness": 0.263,
+        "answer_relevancy": 0.5,
+        "context_recall": 0.25
+    },
+    {
+        "question": "What are cybersecurity rules?",
+        "answer": "The TEYZIX CORE Cybersecurity Policy includes the following rules:\n*   Passwords must contain uppercase, lowercase, numbers, and symbols.\n*   Multi-factor authentication is mandatory.\n*   Sharing credentials is strictly prohibited.",
+        "faithfulness": 0.88,
+        "answer_relevancy": 0.25,
+        "context_recall": 0.5
+    },
+    {
+        "question": "How is performance evaluated?",
+        "answer": "TEYZIX CORE's performance review policy includes the following:\n*   Performance reviews occur every 6 months.\n*   Employees are evaluated using department KPIs.\n*   Managers provide written performance feedback.\n*   High-performing employees may receive promotions.\n*   Employees with low scores enter a 60-day improvement plan.",
+        "faithfulness": 0.861,
+        "answer_relevancy": 0.25,
+        "context_recall": 0.25
+    },
+    {
+        "question": "What is remote work policy?",
+        "answer": "LLM quota exceeded temporarily. Please try again later.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_recall": 0.2
+    }
+]
