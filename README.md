@@ -5,7 +5,6 @@
 This project is a Production-Grade Retrieval-Augmented Generation (RAG) system built for enterprise document QA.  
 It supports hybrid retrieval (dense + sparse), reranking, query rewriting, and evaluation using RAGAS.
 
----
 
 ##  Features
 
@@ -36,7 +35,6 @@ It supports hybrid retrieval (dense + sparse), reranking, query rewriting, and e
 - Latency tracking (retrieval + generation)
 - Optimized top-k context selection
 
----
 
 ##  Architecture
 
@@ -52,11 +50,8 @@ Pipeline:
 8. LLM Generation (Gemini)
 9. Evaluation (RAGAS)
 
----
-
 ##  Project Structure
 
-```
 
 app/
 ├── ingestion/
@@ -76,36 +71,28 @@ vectorstore/
 ├── faiss_index/
 ├── bm25.pkl
 
-````
-
----
 
 ##  How to Run
 
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-````
 
 ### 2. Run ingestion
 
 ```bash
 python app/ingestion/ingest.py
-```
 
 ### 3. Start API
 
 ```bash
 uvicorn app.main:app --reload
-```
 
 ### 4. Open Swagger UI
 
-```
-http://127.0.0.1:8000/docs
-```
 
----
+http://127.0.0.1:8000/docs
+
 
 ##  Evaluation
 
@@ -113,7 +100,7 @@ Run evaluation pipeline:
 
 ```bash
 python run_eval.py
-```
+
 
 Outputs:
 
@@ -122,7 +109,6 @@ Outputs:
 * Context recall
 * JSON report
 
----
 
 ##  Key Design Decisions
 
@@ -132,7 +118,6 @@ Outputs:
 * Query rewriting improves ambiguity handling
 * Strict prompt reduces hallucination
 
----
 
 ##  Notes
 
@@ -140,7 +125,6 @@ Outputs:
 * FAISS index must be generated before chat
 * BM25 index stored in pickle file
 
----
 
 ##  Author
 
